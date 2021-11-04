@@ -56,6 +56,7 @@ export default function App () {
           <Text style={styles.buttonText}>Use Fetch API</Text>
         </View>
       </TouchableHighlight>
+      <Text>OR</Text>
       <TouchableHighlight onPress={axiosApiCall}>
         <View style={styles.button}>
           <Text style={styles.buttonText}>Use Axios</Text>
