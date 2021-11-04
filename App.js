@@ -50,7 +50,7 @@ export default function App () {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Making Api call with Fetch and Axios</Text>
+      <Text style={styles.title}>Making Api call with Fetch and Axios!</Text>
       <TouchableHighlight onPress={fetchApiCall}>
         <View style={styles.button}>
           <Text style={styles.buttonText}>Use Fetch API</Text>
